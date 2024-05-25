@@ -16,6 +16,7 @@ while 1:
         if i.type == pygame.QUIT:
             exit()
         elif i.type == pygame.KEYDOWN:
+            pass
             # поворот машины в зависимости от нажатия на кнопку
     keys = pygame.key.get_pressed()
     # смещение машины (ехать)
